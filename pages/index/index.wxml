@@ -1,0 +1,68 @@
+<view class="container1">
+  <swiper class = "banner" 	indicator-dots 	indicator-color = "white" 	indicator-active-color = "#d43c33">
+    <swiper-item class="swiperimg" wx:for="{{bannerArray}}" wx:for-index="targetId" wx:key="{{bannerArray.index}}">
+      <image src="{{bannerArray[index].imageUrl}}"></image>
+    </swiper-item>
+  </swiper>
+</view>
+<view class = "navContainer">
+  <view class = "navItem">
+    <text class = "iconfont icon-tuijian"></text>
+    <text>每日推荐</text>
+  </view>
+  <view class = "navItem">
+    <text class = "iconfont icon-gedan"></text>
+    <text>歌单</text>
+  </view>
+  <view class = "navItem">
+    <text class = "iconfont icon-paihangbang"></text>
+    <text>排行榜</text>
+  </view>
+  <view class = "navItem">
+    <text class = "iconfont icon-diantai"></text>
+    <text>电台</text>
+  </view>
+  <view class = "navItem">
+    <text class = "iconfont icon-zhibo"></text>
+    <text>直播</text>
+  </view>
+</view>
+<view class = "more">
+  <view class="tip">
+    <text>推荐歌曲</text>
+  </view>
+  <br/>
+  <view class = "tipMore">
+    <text>为您精心推荐</text>
+    <button size="mini">查找更多</button>
+  </view>
+</view>
+<scroll-view class = "scroll" enable-flex="true" scroll-x>
+  <view class="scrollItem">
+    <image src = "/static/images/bird.jpg"></image>
+    <text>一行烟柳上晴天，一行白鹭掩孤坟</text>
+  </view>
+  <view class="scrollItem">
+    <image src = "/static/images/bird.jpg"></image>
+    <text>bird</text>
+  </view>
+  <view class="scrollItem">
+    <image src = "/static/images/bird.jpg"></image>
+    <text>bird</text>
+  </view>
+  <view class="scrollItem">
+    <image src = "/static/images/bird.jpg"></image>
+    <text>bird</text>
+  </view>
+  <view class="scrollItem">
+    <image src = "/static/images/bird.jpg"></image>
+    <text>bird</text>
+  </view>
+  <view class="scrollItem">
+    <image src = "/static/images/bird.jpg"></image>
+    <text>bird</text>
+  </view>
+</scroll-view>
+<view>
+  <button catchtap="getdata">huoquxinxi</button>
+</view>

@@ -1,0 +1,72 @@
+.banner{
+  width: 100%;
+  height: 300rpx;
+}
+.swiperimg > image{
+  width: 100%;
+  height: 100%;
+}
+.navContainer{
+  margin-top: 50rpx;
+  display: flex;
+  justify-content: space-around;
+}
+.navItem{
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  line-height: 100rpx;
+  font-size: 20rpx;
+  text-align: center;
+}
+.iconfont{
+  font-size: 40rpx;
+  color: #fff;
+  width: 100rpx;
+  height: 100rpx;
+  background-color: #d43c33;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.more{
+  height: 100rpx;
+  padding: 20rpx;
+}
+.tip{
+  font-size: 26rpx;
+  height: 40rpx;
+  color: #666;
+}
+.tipMore{
+  height: 60rpx;
+  display: flex;
+  align-items: center;
+}
+.tipMore > button{
+  border: 1px solid black;
+  height: 80%;
+  margin: auto 40rpx auto auto;
+  font-size: 20rpx;
+  border-radius: 30rpx;
+}
+.scroll{
+  display: flex;
+  height: 400rpx;
+}
+.scrollItem{
+  width: 200rpx;
+  margin: 20rpx;
+  text-align: center;
+}
+.scrollItem image{
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 20rpx;
+}
+.scrollItem text{
+  font-size: 26rpx;
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
